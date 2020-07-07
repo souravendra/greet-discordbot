@@ -40,41 +40,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Greetings, '+user+'!'
                 });
                 break;
-
-            case 'charas-ganja':
-                bot.sendMessage({
-                     to: channelID,
-                     message: 'Mereko Pyaara!'
-                 });
-                 break;
-
-            case 'bokachoda':
-                bot.sendMessage({
-                     to: channelID,
-                     message: 'Tor baap ke bol sala'
-                 });
-                 break;
-
-            case 'shuorer-bachha':
-                bot.sendMessage({
-                     to: channelID,
-                     message: 'chup bokchod'
-                 });
-                 break;
-            
-            case 'bagchi':
-                bot.sendMessage({
-                     to: channelID,
-                     message: 'moha maga'
-                 });
-                 break;
-            
-            case 'tor-maa':
-                bot.sendMessage({
-                     to: channelID,
-                     message: 'Mangsho kaate'
-                 });
-                 break;
             
             // case 'help':
             //     bot.sendMessage({
